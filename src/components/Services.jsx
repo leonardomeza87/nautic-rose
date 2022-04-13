@@ -1,12 +1,25 @@
 import React from "react";
 
+import Rope from "../images/rope.png";
+
+import { ReactComponent as Style } from "../images/style_black_24dp.svg";
+import { ReactComponent as Dev } from "../images/code_black_24dp.svg";
+import { ReactComponent as Seo } from "../images/leaderboard_black_24dp.svg";
+
 const Services = () => {
   return (
     <section className="services">
+      <div className="separator">
+        <div className="box">
+          <img className="rope" src={Rope} alt="rope" />
+        </div>
+      </div>
       <h2>Nuestros Servicios</h2>
       <p>Creamos productos llamativos y funcionales</p>
       <div className="card">
-        <div className="image"></div>
+        <div className="image">
+          <Style />
+        </div>
 
         <div className="text">
           <h3>Diseño Gráfico</h3>
@@ -20,7 +33,9 @@ const Services = () => {
         </div>
       </div>
       <div className="card">
-        <div className="image"></div>
+        <div className="image">
+          <Dev />
+        </div>
 
         <div className="text">
           <h3>Desarrollo WEB</h3>
@@ -34,7 +49,9 @@ const Services = () => {
         </div>
       </div>
       <div className="card">
-        <div className="image"></div>
+        <div className="image">
+          <Seo />
+        </div>
 
         <div className="text">
           <h3>Marketing Digital (SEO)</h3>

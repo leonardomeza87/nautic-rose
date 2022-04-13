@@ -2,7 +2,7 @@ import React from "react";
 
 const Process = () => {
   return (
-    <div>
+    <section className="process">
       <h3>¿Cómo funciona?</h3>
       <p>Pasos para iniciar un proyecto</p>
       <div className="step">
@@ -29,7 +29,7 @@ const Process = () => {
           <p>Paga el 50% del costo total al iniciar el proyecto.</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

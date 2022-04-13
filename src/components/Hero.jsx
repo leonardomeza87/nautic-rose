@@ -5,7 +5,7 @@ import { ReactComponent as IconLanguage } from "../images/earth.svg";
 import { ReactComponent as IconChevron } from "../images/chevron-down.svg";
 
 import { ReactComponent as Margay } from "../images/hero-margay.svg";
-import HeroBG from "../images/hero-background.jpg";
+// import HeroBG from "../images/hero-background.jpg";
 
 const Hero = () => {
   return (
