@@ -3,10 +3,10 @@ import React from "react";
 const Process = () => {
   return (
     <section className="process">
-      <h3>¿Cómo funciona?</h3>
-      <p>Pasos para iniciar un proyecto</p>
+      <h2 className="section-title white">¿Cómo funciona?</h2>
+      <p className="section-subtitle white">Pasos para iniciar un proyecto</p>
       <div className="step">
-        <span>1</span>
+        <span className="number">1</span>
         <div className="text">
           <strong>Conversamos sobre tu idea</strong>
           <p>
@@ -16,14 +16,14 @@ const Process = () => {
         </div>
       </div>
       <div className="step">
-        <span>2</span>
+        <span className="number">2</span>
         <div className="text">
           <strong>Sí aceptas las condiciones</strong>
           <p>Nos aseguramos de cumplir y ofrecer el mejor servicio.</p>
         </div>
       </div>
       <div className="step">
-        <span>3</span>
+        <span className="number">3</span>
         <div className="text">
           <strong>Abona el pago</strong>
           <p>Paga el 50% del costo total al iniciar el proyecto.</p>

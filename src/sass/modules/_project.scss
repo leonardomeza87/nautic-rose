@@ -1,0 +1,142 @@
+.project {
+  width: 300px;
+  height: 400px;
+  position: relative;
+
+  padding: 0.84rem 1.2rem;
+
+  margin-bottom: 2rem;
+
+  display: grid;
+  grid-template-rows: 210px 162px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/rope-frame.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .image {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    background-color: var(--gray);
+
+    img {
+      position: absolute;
+      width: 100%;
+    }
+
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .text {
+    position: relative;
+
+    .separator {
+      width: 100%;
+      height: 1rem;
+
+      position: absolute;
+      top: -1rem;
+
+      display: flex;
+      align-items: flex-end;
+
+      svg {
+        height: 13px;
+
+        path {
+          fill: var(--white) !important;
+        }
+      }
+    }
+
+    .container {
+      padding: 0.75rem 2rem 2rem;
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+      h4 {
+        font-size: 20px;
+        line-height: 20px;
+        font-family: var(--font-title);
+        text-transform: uppercase;
+        font-weight: 600;
+
+        margin-bottom: 0.5rem;
+        color: var(--dark-blue);
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 18px;
+        font-family: var(--font-text);
+        text-transform: uppercase;
+        font-weight: 400;
+
+        margin-bottom: 0.5rem;
+        color: var(--dark-blue);
+      }
+
+      .extras {
+        position: absolute;
+        bottom: 2rem;
+        left: 0;
+
+        width: 100%;
+        padding: 0 2rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .rating,
+        .likes {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          svg {
+            margin-right: 0.25rem;
+            fill: var(--orange);
+
+            path {
+              stroke: var(--dark-blue);
+            }
+          }
+
+          span {
+            font-size: 22px;
+            line-height: 22px;
+            font-family: var(--font-text);
+            font-weight: 600;
+            color: var(--dark-blue);
+          }
+        }
+
+        // .rating {
+        //   svg {
+        //     fill: var(--orange);
+        //   }
+        // }
+      }
+    }
+  }
+}

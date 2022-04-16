@@ -1,0 +1,60 @@
+.wave {
+  display: flex;
+  position: relative;
+
+  &.inverted svg {
+    transform: rotate(180deg);
+  }
+
+  img {
+    position: absolute;
+
+    &.left {
+      left: -2.5rem;
+    }
+    &.right {
+      right: -2.5rem;
+    }
+    &.right-short {
+      right: -1.5rem;
+    }
+
+    height: 96px;
+
+    &.top {
+      top: calc(-96px / 1.75 + 16px);
+    }
+    &.bottom {
+      bottom: calc(-96px / 1.5 + 16px);
+    }
+
+    &.positive-rotation {
+      transform: rotate(12deg);
+    }
+    &.negative-rotation {
+      transform: rotate(-12deg);
+    }
+
+    &.no-rotation {
+      transform: rotate(0deg);
+    }
+
+    &.small {
+      height: 72px;
+
+      &.top {
+        top: calc(-72px / 1.75 + 16px);
+      }
+      &.bottom {
+        bottom: calc(-72px / 1.75 + 16px);
+      }
+
+      &.positive-rotation {
+        transform: rotate(2deg);
+      }
+      &.negative-rotation {
+        transform: rotate(-2deg);
+      }
+    }
+  }
+}

@@ -14,8 +14,10 @@ const Services = () => {
           <img className="rope" src={Rope} alt="rope" />
         </div>
       </div>
-      <h2>Nuestros Servicios</h2>
-      <p>Creamos productos llamativos y funcionales</p>
+      <h2 className="section-title">Nuestros Servicios</h2>
+      <p className="section-subtitle">
+        Creamos productos llamativos y funcionales
+      </p>
       <div className="card">
         <div className="image">
           <Style />
