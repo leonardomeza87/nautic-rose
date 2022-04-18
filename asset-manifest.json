@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/nautic-rose/static/css/main.3b971b24.css",
+    "main.js": "/nautic-rose/static/js/main.48dfbc71.js",
+    "static/media/rope-frame.png": "/nautic-rose/static/media/rope-frame.873ffd43b652f531ec55.png",
+    "static/media/texture.png": "/nautic-rose/static/media/texture.d005488551dec2c95013.png",
+    "static/media/hero-margay.svg": "/nautic-rose/static/media/hero-margay.c90da9fc1be0d2eb09582247f9188525.svg",
+    "static/media/rope.png": "/nautic-rose/static/media/rope.523ed89bc4ca5978adfe.png",
+    "static/media/rope-circle.png": "/nautic-rose/static/media/rope-circle.f1992648d50555be002d.png",
+    "static/media/test-image.jpg": "/nautic-rose/static/media/test-image.437b03e3c9be284ce94a.jpg",
+    "static/media/test-image-2.jpg": "/nautic-rose/static/media/test-image-2.e1a563362169cb3e6ea7.jpg",
+    "static/media/hero-background.jpg": "/nautic-rose/static/media/hero-background.1553979ec06fc515ac2d.jpg",
+    "static/media/stamp-vzla.png": "/nautic-rose/static/media/stamp-vzla.f1363b6408a17ef11362.png",
+    "static/media/stamp-wave.png": "/nautic-rose/static/media/stamp-wave.07f9fe9d1fcf3f56df86.png",
+    "static/media/logo.svg": "/nautic-rose/static/media/logo.581aa3c4e50ca90d5da1e3742a676c11.svg",
+    "static/media/stamp-post.png": "/nautic-rose/static/media/stamp-post.9f6951d5879fed184014.png",
+    "static/media/stamp-mail.png": "/nautic-rose/static/media/stamp-mail.8b65d09d5742be84cf48.png",
+    "static/media/earth.svg": "/nautic-rose/static/media/earth.b676cc54b901f273489d747281ee230f.svg",
+    "index.html": "/nautic-rose/index.html",
+    "static/media/style_black_24dp.svg": "/nautic-rose/static/media/style_black_24dp.62f4a59424ae0ddcd65ccd5bd17a275c.svg",
+    "static/media/image.svg": "/nautic-rose/static/media/image.d8251f5056c5d1d729c387b0e18de8e7.svg",
+    "static/media/format_quote_black_24dp.svg": "/nautic-rose/static/media/format_quote_black_24dp.12dbccf475307f87b3f120fedac821de.svg",
+    "static/media/heart.svg": "/nautic-rose/static/media/heart.c1c4496e9c54cd0f6f36566111f7e589.svg",
+    "static/media/wave.svg": "/nautic-rose/static/media/wave.4de0fc112d408e2e71f9e5357e148aa8.svg",
+    "static/media/star.svg": "/nautic-rose/static/media/star.91224391cb2252f37538b0295da00a2d.svg",
+    "static/media/leaderboard_black_24dp.svg": "/nautic-rose/static/media/leaderboard_black_24dp.57f8e2f20da5299083ae7247d2dfe067.svg",
+    "static/media/code_black_24dp.svg": "/nautic-rose/static/media/code_black_24dp.30ee14113d1add398a00c34909e5f863.svg",
+    "static/media/chevron-down.svg": "/nautic-rose/static/media/chevron-down.8261387b46a4e157bdf658369adba2ce.svg",
+    "main.3b971b24.css.map": "/nautic-rose/static/css/main.3b971b24.css.map",
+    "main.48dfbc71.js.map": "/nautic-rose/static/js/main.48dfbc71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b971b24.css",
+    "static/js/main.48dfbc71.js"
+  ]
+}
