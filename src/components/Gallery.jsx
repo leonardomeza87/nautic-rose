@@ -32,6 +32,7 @@ const Gallery = () => {
         rating={5}
         likes={30}
       />
+      <button>- Ver más -</button>
     </section>
   );
 };
