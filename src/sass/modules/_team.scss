@@ -5,4 +5,29 @@
   align-items: center;
 
   padding-top: 4rem;
+  position: relative;
+
+  height: 100%;
+
+  .background {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    // top: 0;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      position: absolute;
+      // top: 0;
+      left: -40rem;
+      fill: var(--light-gray);
+      height: 100%;
+      // width: 100%;
+    }
+  }
 }

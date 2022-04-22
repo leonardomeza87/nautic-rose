@@ -9,15 +9,21 @@ import { ReactComponent as AvatarOwl } from "../images/avatar-owl.svg";
 import { ReactComponent as AvatarTurtle } from "../images/avatar-turtle.svg";
 import { ReactComponent as AvatarWolf } from "../images/avatar-wolf.svg";
 
+import { ReactComponent as Worldmap } from "../images/team-worldmap.svg";
+
 const Team = () => {
   const testURL = "https://www.google.com/";
 
   return (
     <section className="team">
+      <div className="background">
+        <Worldmap />
+      </div>
       <h2 className="section-title">Nuestro equipo</h2>
       <p className="section-subtitle">
         Conoce a los encargados de los proyectos y su labor
       </p>
+
       <div className="members">
         <Member
           avatar={<AvatarFox />}
@@ -31,17 +37,6 @@ const Team = () => {
           work={"CEO"}
         />
         <Member
-          avatar={<AvatarOwl />}
-          nickname={"WHOLEHAND"}
-          contact={{
-            linkedin: testURL,
-            twitter: null,
-            behance: null,
-            instagram: null,
-          }}
-          work={"COO/GD"}
-        />
-        <Member
           avatar={<AvatarTurtle />}
           nickname={"DaniBit"}
           contact={{
@@ -50,7 +45,18 @@ const Team = () => {
             behance: null,
             instagram: null,
           }}
-          work={"CFO/CSO"}
+          work={"CFO"}
+        />
+        <Member
+          avatar={<AvatarOwl />}
+          nickname={"WHOLEHAND"}
+          contact={{
+            linkedin: testURL,
+            twitter: null,
+            behance: null,
+            instagram: null,
+          }}
+          work={"COO/DG"}
         />
         <Member
           avatar={<AvatarArticTern />}
@@ -61,7 +67,7 @@ const Team = () => {
             behance: null,
             instagram: null,
           }}
-          work={"Web Dev"}
+          work={"Desarrollador Web"}
         />
         <Member
           avatar={<AvatarBat />}
@@ -72,7 +78,7 @@ const Team = () => {
             behance: null,
             instagram: null,
           }}
-          work={"Web Dev"}
+          work={"Programador"}
         />
         <Member
           avatar={<AvatarWolf />}
@@ -83,7 +89,7 @@ const Team = () => {
             behance: null,
             instagram: null,
           }}
-          work={"Web Dev"}
+          work={"Programador"}
         />
         <Member
           avatar={<AvatarChameleon />}
@@ -94,7 +100,7 @@ const Team = () => {
             behance: null,
             instagram: null,
           }}
-          work={"GD"}
+          work={"Diseñador Gráfico"}
         />
       </div>
     </section>
