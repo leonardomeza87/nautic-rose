@@ -7,6 +7,7 @@ import About from "./components/About";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Wave from "./components/Wave";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Team />
       <Wave inverted={false} stamp={"mail"} rotation={"positive"} />
       <Contact />
+      <Footer />
     </div>
   );
 }

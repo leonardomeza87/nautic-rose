@@ -1,7 +1,104 @@
 import React from "react";
+import Member from "./Member";
+
+import { ReactComponent as AvatarFox } from "../images/avatar-fox.svg";
+import { ReactComponent as AvatarArticTern } from "../images/avatar-artic-tern.svg";
+import { ReactComponent as AvatarBat } from "../images/avatar-bat.svg";
+import { ReactComponent as AvatarChameleon } from "../images/avatar-chameleon.svg";
+import { ReactComponent as AvatarOwl } from "../images/avatar-owl.svg";
+import { ReactComponent as AvatarTurtle } from "../images/avatar-turtle.svg";
+import { ReactComponent as AvatarWolf } from "../images/avatar-wolf.svg";
 
 const Team = () => {
-  return <div>Team</div>;
+  const testURL = "https://www.google.com/";
+
+  return (
+    <section className="team">
+      <h2 className="section-title">Nuestro equipo</h2>
+      <p className="section-subtitle">
+        Conoce a los encargados de los proyectos y su labor
+      </p>
+      <div className="members">
+        <Member
+          avatar={<AvatarFox />}
+          nickname={"Erickson"}
+          contact={{
+            linkedin: testURL,
+            twitter: null,
+            behance: null,
+            instagram: null,
+          }}
+          work={"CEO"}
+        />
+        <Member
+          avatar={<AvatarOwl />}
+          nickname={"WHOLEHAND"}
+          contact={{
+            linkedin: testURL,
+            twitter: null,
+            behance: null,
+            instagram: null,
+          }}
+          work={"COO/GD"}
+        />
+        <Member
+          avatar={<AvatarTurtle />}
+          nickname={"DaniBit"}
+          contact={{
+            linkedin: testURL,
+            twitter: null,
+            behance: null,
+            instagram: null,
+          }}
+          work={"CFO/CSO"}
+        />
+        <Member
+          avatar={<AvatarArticTern />}
+          nickname={"Leonardo"}
+          contact={{
+            linkedin: testURL,
+            twitter: null,
+            behance: null,
+            instagram: null,
+          }}
+          work={"Web Dev"}
+        />
+        <Member
+          avatar={<AvatarBat />}
+          nickname={"Jhontex"}
+          contact={{
+            linkedin: testURL,
+            twitter: null,
+            behance: null,
+            instagram: null,
+          }}
+          work={"Web Dev"}
+        />
+        <Member
+          avatar={<AvatarWolf />}
+          nickname={"JayBlaze"}
+          contact={{
+            linkedin: testURL,
+            twitter: null,
+            behance: null,
+            instagram: null,
+          }}
+          work={"Web Dev"}
+        />
+        <Member
+          avatar={<AvatarChameleon />}
+          nickname={"Joker"}
+          contact={{
+            linkedin: testURL,
+            twitter: null,
+            behance: null,
+            instagram: null,
+          }}
+          work={"GD"}
+        />
+      </div>
+    </section>
+  );
 };
 
 export default Team;

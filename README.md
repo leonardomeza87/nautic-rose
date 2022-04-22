@@ -1,4 +1,6 @@
-# Nautic Rose
+# PROJECT "Nautic Rose"
+
+Main website for a new startup called "Nautic Rose".
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
