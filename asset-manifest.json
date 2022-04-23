@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nautic-rose/static/css/main.3b971b24.css",
-    "main.js": "/nautic-rose/static/js/main.48dfbc71.js",
+    "main.css": "/nautic-rose/static/css/main.806fdd5a.css",
+    "main.js": "/nautic-rose/static/js/main.9b1edcae.js",
     "static/media/rope-frame.png": "/nautic-rose/static/media/rope-frame.873ffd43b652f531ec55.png",
     "static/media/texture.png": "/nautic-rose/static/media/texture.d005488551dec2c95013.png",
     "static/media/hero-margay.svg": "/nautic-rose/static/media/hero-margay.c90da9fc1be0d2eb09582247f9188525.svg",
@@ -10,13 +10,25 @@
     "static/media/test-image.jpg": "/nautic-rose/static/media/test-image.437b03e3c9be284ce94a.jpg",
     "static/media/test-image-2.jpg": "/nautic-rose/static/media/test-image-2.e1a563362169cb3e6ea7.jpg",
     "static/media/hero-background.jpg": "/nautic-rose/static/media/hero-background.1553979ec06fc515ac2d.jpg",
+    "static/media/avatar-wolf.svg": "/nautic-rose/static/media/avatar-wolf.ed6124ffb508b50bb18f6edbd25ba9d3.svg",
+    "static/media/team-worldmap.svg": "/nautic-rose/static/media/team-worldmap.3727727820dffad5c046a53945b1f81d.svg",
+    "static/media/avatar-fox.svg": "/nautic-rose/static/media/avatar-fox.1f8bf45006459cd97f3e08d262660d85.svg",
+    "static/media/avatar-turtle.svg": "/nautic-rose/static/media/avatar-turtle.cb2b5895c1bc1d4a8ff943d1a00e2bf5.svg",
+    "static/media/avatar-owl.svg": "/nautic-rose/static/media/avatar-owl.9b421516e021a891ddd8a2f598648f18.svg",
+    "static/media/avatar-bat.svg": "/nautic-rose/static/media/avatar-bat.2cb51f5027fa00d45db50c41933b89bc.svg",
+    "static/media/avatar-chameleon.svg": "/nautic-rose/static/media/avatar-chameleon.21c823c9a1afd83c599dda01c9af56fa.svg",
     "static/media/stamp-vzla.png": "/nautic-rose/static/media/stamp-vzla.f1363b6408a17ef11362.png",
     "static/media/stamp-wave.png": "/nautic-rose/static/media/stamp-wave.07f9fe9d1fcf3f56df86.png",
     "static/media/logo.svg": "/nautic-rose/static/media/logo.581aa3c4e50ca90d5da1e3742a676c11.svg",
     "static/media/stamp-post.png": "/nautic-rose/static/media/stamp-post.9f6951d5879fed184014.png",
     "static/media/stamp-mail.png": "/nautic-rose/static/media/stamp-mail.8b65d09d5742be84cf48.png",
+    "static/media/avatar-artic-tern.svg": "/nautic-rose/static/media/avatar-artic-tern.58df106404d3e9ba13f429bf61fa91b9.svg",
     "static/media/earth.svg": "/nautic-rose/static/media/earth.b676cc54b901f273489d747281ee230f.svg",
     "index.html": "/nautic-rose/index.html",
+    "static/media/logo-behance.svg": "/nautic-rose/static/media/logo-behance.aae12d41cd4b2a7d38e3b8b087025661.svg",
+    "static/media/logo-twitter.svg": "/nautic-rose/static/media/logo-twitter.62976c081dee9df5e089714a43f81083.svg",
+    "static/media/logo-linkedin.svg": "/nautic-rose/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
+    "static/media/logo-instagram.svg": "/nautic-rose/static/media/logo-instagram.3f986527d185ed9ef19e215f7637f59f.svg",
     "static/media/style_black_24dp.svg": "/nautic-rose/static/media/style_black_24dp.62f4a59424ae0ddcd65ccd5bd17a275c.svg",
     "static/media/image.svg": "/nautic-rose/static/media/image.d8251f5056c5d1d729c387b0e18de8e7.svg",
     "static/media/format_quote_black_24dp.svg": "/nautic-rose/static/media/format_quote_black_24dp.12dbccf475307f87b3f120fedac821de.svg",
@@ -26,11 +38,11 @@
     "static/media/leaderboard_black_24dp.svg": "/nautic-rose/static/media/leaderboard_black_24dp.57f8e2f20da5299083ae7247d2dfe067.svg",
     "static/media/code_black_24dp.svg": "/nautic-rose/static/media/code_black_24dp.30ee14113d1add398a00c34909e5f863.svg",
     "static/media/chevron-down.svg": "/nautic-rose/static/media/chevron-down.8261387b46a4e157bdf658369adba2ce.svg",
-    "main.3b971b24.css.map": "/nautic-rose/static/css/main.3b971b24.css.map",
-    "main.48dfbc71.js.map": "/nautic-rose/static/js/main.48dfbc71.js.map"
+    "main.806fdd5a.css.map": "/nautic-rose/static/css/main.806fdd5a.css.map",
+    "main.9b1edcae.js.map": "/nautic-rose/static/js/main.9b1edcae.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b971b24.css",
-    "static/js/main.48dfbc71.js"
+    "static/css/main.806fdd5a.css",
+    "static/js/main.9b1edcae.js"
   ]
 }
