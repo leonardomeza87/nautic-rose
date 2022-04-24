@@ -59,7 +59,7 @@
       &::placeholder {
         font-size: 14px;
         line-height: 14px;
-        font-weight: 400;
+        font-weight: 500;
       }
 
       margin-bottom: 0.5rem;
@@ -89,6 +89,8 @@
       justify-content: flex-start;
       align-items: flex-start;
 
+      width: 100%;
+
       margin: 2rem 0 0.5rem;
 
       p {
@@ -105,6 +107,37 @@
         a {
           margin-left: 0.25rem;
         }
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem 1rem;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+
+    .item {
+      padding: 0.25rem;
+      border: 1px solid var(--orange);
+      border-radius: 6px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 0 0.25rem;
+
+      svg {
+        fill: var(--orange);
+        height: 22px;
+        width: 22px;
       }
     }
   }

@@ -2,12 +2,15 @@
   display: flex;
   position: relative;
 
+  width: 100%;
+
   &.inverted svg {
     transform: rotate(180deg);
   }
 
   img {
     position: absolute;
+    overflow: hidden;
 
     &.left {
       left: -2.5rem;

@@ -1,5 +1,12 @@
 import React from "react";
 
+import { ReactComponent as Isotype } from "../images/new.svg";
+
+import { ReactComponent as LogoFacebook } from "../images/logo-facebook.svg";
+import { ReactComponent as LogoLinkedin } from "../images/logo-linkedin.svg";
+import { ReactComponent as LogoInstagram } from "../images/logo-instagram.svg";
+import { ReactComponent as LogoWhatsapp } from "../images/logo-whatsapp.svg";
+
 const Contact = () => {
   return (
     <section className="contact-section">
@@ -20,11 +27,11 @@ const Contact = () => {
           id=""
           cols="10"
           rows="4"
-          placeholder="Tu mensaje"
+          placeholder="¡Escribe aquí tu mensaje!"
         ></textarea>
         <input type="submit" value="Enviar" />
         <div className="contact-info">
-          <p>Ubicación: Maracay, Aragua - Venezuela</p>
+          <p>Ubicación: Maracay - Venezuela</p>
           <p>
             Teléfono: <a href="tel:+000000000000">+00(000) 000-00-00</a>
           </p>
@@ -33,6 +40,25 @@ const Contact = () => {
           </p>
         </div>
       </form>
+
+      <div className="logo">
+        <Isotype />
+      </div>
+
+      <div className="social-media">
+        <div className="item">
+          <LogoInstagram />
+        </div>
+        <div className="item">
+          <LogoLinkedin />
+        </div>
+        <div className="item">
+          <LogoFacebook />
+        </div>
+        <div className="item">
+          <LogoWhatsapp />
+        </div>
+      </div>
     </section>
   );
 };
