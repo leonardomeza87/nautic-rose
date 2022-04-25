@@ -7,6 +7,12 @@ import { ReactComponent as Margay } from "../images/hero-margay.svg";
 import HeroBackground from "../images/hero-background.jpg";
 
 const Hero = () => {
+  const pageScroll = () => {
+    setInterval(() => {
+      window.scrollBy(0, 30);
+    }, 10);
+  };
+
   return (
     <section className="hero">
       <div className="cover">
@@ -18,7 +24,7 @@ const Hero = () => {
         <p>Personaliza tu marca o escoge una de nuestras mejores plantillas</p>
 
         <div className="cta">
-          <button>Proyectos</button>
+          <button onClick={pageScroll}>Proyectos</button>
           <button className="orange">Contáctanos</button>
         </div>
 

@@ -109,7 +109,7 @@
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
     background-color: var(--dark-blue);
     color: var(--white);
-    padding: 5.5rem 1rem 0;
+    padding: 5.25rem 1rem 0;
 
     h1 {
       font-size: 28px;
@@ -137,7 +137,7 @@
 
     .cta {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
 
       width: 95%;
@@ -174,6 +174,8 @@
         &.orange {
           color: var(--white);
           background-color: var(--orange);
+
+          margin-left: 1.25rem;
 
           &:hover {
             color: var(--orange);

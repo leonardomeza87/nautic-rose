@@ -4,8 +4,15 @@
 
   width: 100%;
 
+  svg {
+    height: 32px;
+    width: 100%;
+
+    transform: scaleX(2);
+  }
+
   &.inverted svg {
-    transform: rotate(180deg);
+    transform: scaleX(2) rotate(180deg);
   }
 
   img {
